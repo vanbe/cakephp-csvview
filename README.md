@@ -15,20 +15,9 @@ this with a custom view class, like JsonView or XmlView.
 * PHP5
 * Patience
 
-## Installation
+_[Fork of FriendsOfCake/cakephp-csvview]_
 
-_[Using [Composer](http://getcomposer.org/)]_
-
-[View on Packagist](https://packagist.org/packages/friendsofcake/cakephp-csvview), and copy
-the JSON snippet for the latest version into your project's `composer.json`. Eg, v. 1.2.0 would look like this:
-
-	{
-		"require": {
-			"friendsofcake/cakephp-csvview": "1.2.0"
-		}
-	}
-
-Because this plugin has the type `cakephp-plugin` set in it's own `composer.json`, composer knows to install it inside your `/Plugins` directory, rather than in the usual vendors file. It is recommended that you add `/Plugins/CsvView` to your .gitignore file. (Why? [read this](http://getcomposer.org/doc/faqs/should-i-commit-the-dependencies-in-my-vendor-directory.md).)
+CakePHP 2.x Fork / Branch for keeping compatibility. You are kindly invited to push master fixes
 
 _[Manual]_
 
